@@ -1,0 +1,7 @@
+.cart-product{
+     display:flex;
+}
+#status{
+     color:green;
+     font-size: 20px;
+}

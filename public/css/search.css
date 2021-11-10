@@ -1,0 +1,26 @@
+
+#sbar, #submit{
+     height: 40px;
+}
+#sbar{
+     width: 400px;
+}
+#submit{
+     width: 100px;
+}
+.result{
+     display:flex;
+     flex-direction: column;
+}
+.info{
+     align-items: left;
+     text-align:left;
+     width: 500px;
+     padding:20px;
+     margin:10px;
+     border:2px solid black;
+}
+img{
+     width: 300px;
+     height: 300px;
+}

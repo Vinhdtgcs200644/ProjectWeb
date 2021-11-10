@@ -1,0 +1,39 @@
+.products{
+     display : flex;
+}
+.row-product{
+
+}
+.product{
+     margin: 30px;
+}
+.show{
+     width: 300px;
+     height: 300px;
+}
+label{
+     font-size: 20px;
+}
+.descript{
+     margin-top : 20px;
+     text-align: left;
+}
+.header{
+     font-size: 30px;
+     color : white;
+}
+p{
+     font-size: 20px;
+     color : yellow;
+}
+button{
+     border:2px solid white;;
+     height: 40px;
+     width : 140px;
+     background: transparent;
+     font-size: 20px;
+}
+#status{
+     font-size: 15px;
+     margin : 10px;
+}

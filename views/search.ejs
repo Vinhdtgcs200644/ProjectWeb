@@ -1,0 +1,44 @@
+<link rel="stylesheet" href="css/search.css">
+
+<%- include("section/_header") %>
+
+     <h2>Search :</h2>
+     <form action="search" method="post">
+          <input type="text" name="search" value="" placeholder="Search here" id="sbar">
+          <input type="submit" name="submit_bar" id="submit"/>
+     </form>
+     <% if(result.length>0){ %>
+          <% if(result[0]==null){ %>
+               <label>Unable to find the results.</label>
+          <% } else{ %>
+               <div class="result">
+                    <div class="img">
+                         <img src="/img/<%= result[4] %>" alt="product image">
+                    </div>
+                    <div class="info">
+                         <div>
+                              <label>Title : </label><label><%= result[0] %></label>
+                         </div>
+                         <hr>
+                         <div>
+                              <label>Price : </label><label><%= result[1] %></label>
+                         </div>
+                         <hr>
+                         <div>
+                              <label>Made in : </label><label><%= result[2] %></label>
+                         </div>
+                         <hr>
+                         <div>
+                              <label>description : </label>
+                              <div>
+                                   <p><%= result[3] %></p>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          <% } %>
+     <% } else{ %>
+     <label>Search something</label>
+     <% } %>
+
+<%- include("section/_footer") %>

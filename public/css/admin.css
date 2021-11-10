@@ -1,0 +1,13 @@
+#update-section{
+     display:none;
+}
+#status{
+     color : red;
+     font-size: 20px;
+}
+input[name="prove_"]{
+     width:100px;
+}
+input[name="list"]{
+     width:100px;
+}
